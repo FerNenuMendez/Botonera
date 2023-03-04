@@ -16,9 +16,3 @@ function removeTransition(e){
 
 const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-
-window.addEventListener('click', function(e){
-    
-    const audio = this.document
-    
-})
